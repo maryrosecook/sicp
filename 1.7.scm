@@ -39,5 +39,4 @@
 (define (pp annotation str)
   (and (display annotation)
        (display str)
-       (display "\n"))
-  true)
+       (display "\n")))
